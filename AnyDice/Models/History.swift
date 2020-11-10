@@ -34,7 +34,7 @@ class History {
     /// reads History from UserDefaults
     func restoreFromUserDefaults() {
         guard let data = UserDefaults.standard.object(forKey: "RollsHistory") as? Data else {
-            debugPrint("Error in History.restoreFromUserDefaults() while reading data from UserDefaults.")
+            Logger.error("Error while while reading data from UserDefaults.")
             return
         }
         if let rollsHistoryArray = try? PropertyListDecoder().decode([[String: String]].self, from: data) {
