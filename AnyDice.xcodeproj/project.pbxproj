@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE0385C5254F054600B57B35 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0385C4254F054600B57B35 /* Spinner.swift */; };
 		FE1D533D25484DDA0059C11E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D533C25484DDA0059C11E /* AppDelegate.swift */; };
 		FE1D533F25484DDA0059C11E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D533E25484DDA0059C11E /* SceneDelegate.swift */; };
-		FE1D534125484DDA0059C11E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D534025484DDA0059C11E /* ViewController.swift */; };
+		FE1D534125484DDA0059C11E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D534025484DDA0059C11E /* MainViewController.swift */; };
 		FE1D534425484DDA0059C11E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1D534225484DDA0059C11E /* Main.storyboard */; };
 		FE1D534625484DDC0059C11E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1D534525484DDC0059C11E /* Assets.xcassets */; };
 		FE1D534925484DDC0059C11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1D534725484DDC0059C11E /* LaunchScreen.storyboard */; };
 		FE1D535425484DDD0059C11E /* AnyDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D535325484DDD0059C11E /* AnyDiceTests.swift */; };
 		FE1D535F25484DDD0059C11E /* AnyDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D535E25484DDD0059C11E /* AnyDiceUITests.swift */; };
+		FE1D537625484F690059C11E /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D537525484F690059C11E /* ConfigurationViewController.swift */; };
+		FE1D537B25484F7A0059C11E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D537A25484F7A0059C11E /* HistoryViewController.swift */; };
+		FE1D5383254855360059C11E /* DiceSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D5382254855360059C11E /* DiceSet.swift */; };
+		FE1D5393254859AF0059C11E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D5392254859AF0059C11E /* Constants.swift */; };
+		FE1D539925485A6A0059C11E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D539825485A6A0059C11E /* Utilities.swift */; };
+		FE1D539F25485B800059C11E /* DiceSetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D539D25485B800059C11E /* DiceSetTableViewCell.swift */; };
+		FE1D53A025485B800059C11E /* DiceSetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1D539E25485B800059C11E /* DiceSetTableViewCell.xib */; };
+		FE1D53A52548A1760059C11E /* ChooseDiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D53A42548A1760059C11E /* ChooseDiceViewController.swift */; };
+		FE1D53AE2548A8E10059C11E /* DiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D53AC2548A8E10059C11E /* DiceTableViewCell.swift */; };
+		FE1D53AF2548A8E10059C11E /* DiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1D53AD2548A8E10059C11E /* DiceTableViewCell.xib */; };
+		FE1D53B42548B5CE0059C11E /* DiceTableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D53B32548B5CE0059C11E /* DiceTableDelegate.swift */; };
+		FE419672254C836900D09923 /* ChooseDiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE419671254C836900D09923 /* ChooseDiceDelegate.swift */; };
+		FE419677254D879100D09923 /* DiceStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE419676254D879100D09923 /* DiceStack.swift */; };
+		FE41967F254DB52400D09923 /* ConfigurationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41967E254DB52400D09923 /* ConfigurationDelegate.swift */; };
+		FE69DE2725508F270007CD00 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69DE2625508F270007CD00 /* UserDefaultsExtension.swift */; };
+		FE69DE2C2550B0E10007CD00 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69DE2B2550B0E10007CD00 /* History.swift */; };
+		FE69DE322550BF330007CD00 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69DE302550BF330007CD00 /* HistoryTableViewCell.swift */; };
+		FE69DE332550BF330007CD00 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE69DE312550BF330007CD00 /* HistoryTableViewCell.xib */; };
+		FE6B394125544B5800CFD99F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6B394025544B5800CFD99F /* Logger.swift */; };
+		FE6B39502555B9E500CFD99F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6B394F2555B9E500CFD99F /* UIColorExtension.swift */; };
+		FE6B39792556F0D700CFD99F /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6B39782556F0D700CFD99F /* Design.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +57,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE0385C4254F054600B57B35 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		FE1D533925484DDA0059C11E /* AnyDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1D533C25484DDA0059C11E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE1D533E25484DDA0059C11E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE1D534025484DDA0059C11E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE1D534025484DDA0059C11E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FE1D534325484DDA0059C11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE1D534525484DDC0059C11E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE1D534825484DDC0059C11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FE1D534A25484DDC0059C11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1D534A25484DDC0059C11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = AnyDice/Application/Info.plist; sourceTree = SOURCE_ROOT; };
 		FE1D534F25484DDD0059C11E /* AnyDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnyDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1D535325484DDD0059C11E /* AnyDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDiceTests.swift; sourceTree = "<group>"; };
 		FE1D535525484DDD0059C11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE1D535A25484DDD0059C11E /* AnyDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnyDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1D535E25484DDD0059C11E /* AnyDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyDiceUITests.swift; sourceTree = "<group>"; };
 		FE1D536025484DDD0059C11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1D537525484F690059C11E /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		FE1D537A25484F7A0059C11E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		FE1D5382254855360059C11E /* DiceSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceSet.swift; sourceTree = "<group>"; };
+		FE1D5392254859AF0059C11E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FE1D539825485A6A0059C11E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		FE1D539D25485B800059C11E /* DiceSetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceSetTableViewCell.swift; sourceTree = "<group>"; };
+		FE1D539E25485B800059C11E /* DiceSetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiceSetTableViewCell.xib; sourceTree = "<group>"; };
+		FE1D53A42548A1760059C11E /* ChooseDiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDiceViewController.swift; sourceTree = "<group>"; };
+		FE1D53AC2548A8E10059C11E /* DiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceTableViewCell.swift; sourceTree = "<group>"; };
+		FE1D53AD2548A8E10059C11E /* DiceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiceTableViewCell.xib; sourceTree = "<group>"; };
+		FE1D53B32548B5CE0059C11E /* DiceTableDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceTableDelegate.swift; sourceTree = "<group>"; };
+		FE419671254C836900D09923 /* ChooseDiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDiceDelegate.swift; sourceTree = "<group>"; };
+		FE419676254D879100D09923 /* DiceStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceStack.swift; sourceTree = "<group>"; };
+		FE41967E254DB52400D09923 /* ConfigurationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationDelegate.swift; sourceTree = "<group>"; };
+		FE69DE2625508F270007CD00 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		FE69DE2B2550B0E10007CD00 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		FE69DE302550BF330007CD00 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		FE69DE312550BF330007CD00 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		FE6B394025544B5800CFD99F /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		FE6B394F2555B9E500CFD99F /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		FE6B39782556F0D700CFD99F /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +143,12 @@
 		FE1D533B25484DDA0059C11E /* AnyDice */ = {
 			isa = PBXGroup;
 			children = (
-				FE1D533C25484DDA0059C11E /* AppDelegate.swift */,
-				FE1D533E25484DDA0059C11E /* SceneDelegate.swift */,
-				FE1D534025484DDA0059C11E /* ViewController.swift */,
-				FE1D534225484DDA0059C11E /* Main.storyboard */,
-				FE1D534525484DDC0059C11E /* Assets.xcassets */,
-				FE1D534725484DDC0059C11E /* LaunchScreen.storyboard */,
-				FE1D534A25484DDC0059C11E /* Info.plist */,
+				FE6B39482555B45A00CFD99F /* Application */,
+				FE1D5397254859B30059C11E /* Helpers */,
+				FE1D536C25484DE60059C11E /* Models */,
+				FE6B396C2555C37000CFD99F /* Storyboards */,
+				FE1D536E25484DFB0059C11E /* ViewControllers */,
+				FE1D536D25484DF30059C11E /* Views */,
 			);
 			path = AnyDice;
 			sourceTree = "<group>";
@@ -126,6 +169,77 @@
 				FE1D536025484DDD0059C11E /* Info.plist */,
 			);
 			path = AnyDiceUITests;
+			sourceTree = "<group>";
+		};
+		FE1D536C25484DE60059C11E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE1D5382254855360059C11E /* DiceSet.swift */,
+				FE419676254D879100D09923 /* DiceStack.swift */,
+				FE69DE2B2550B0E10007CD00 /* History.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE1D536D25484DF30059C11E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE1D53AC2548A8E10059C11E /* DiceTableViewCell.swift */,
+				FE1D53AD2548A8E10059C11E /* DiceTableViewCell.xib */,
+				FE1D539D25485B800059C11E /* DiceSetTableViewCell.swift */,
+				FE1D539E25485B800059C11E /* DiceSetTableViewCell.xib */,
+				FE69DE302550BF330007CD00 /* HistoryTableViewCell.swift */,
+				FE69DE312550BF330007CD00 /* HistoryTableViewCell.xib */,
+				FE0385C4254F054600B57B35 /* Spinner.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE1D536E25484DFB0059C11E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE1D53A42548A1760059C11E /* ChooseDiceViewController.swift */,
+				FE1D537525484F690059C11E /* ConfigurationViewController.swift */,
+				FE1D537A25484F7A0059C11E /* HistoryViewController.swift */,
+				FE1D534025484DDA0059C11E /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FE1D5397254859B30059C11E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FE419671254C836900D09923 /* ChooseDiceDelegate.swift */,
+				FE41967E254DB52400D09923 /* ConfigurationDelegate.swift */,
+				FE1D5392254859AF0059C11E /* Constants.swift */,
+				FE6B39782556F0D700CFD99F /* Design.swift */,
+				FE1D53B32548B5CE0059C11E /* DiceTableDelegate.swift */,
+				FE6B394025544B5800CFD99F /* Logger.swift */,
+				FE6B394F2555B9E500CFD99F /* UIColorExtension.swift */,
+				FE69DE2625508F270007CD00 /* UserDefaultsExtension.swift */,
+				FE1D539825485A6A0059C11E /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FE6B39482555B45A00CFD99F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FE1D533C25484DDA0059C11E /* AppDelegate.swift */,
+				FE1D534525484DDC0059C11E /* Assets.xcassets */,
+				FE1D534A25484DDC0059C11E /* Info.plist */,
+				FE1D533E25484DDA0059C11E /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FE6B396C2555C37000CFD99F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FE1D534725484DDC0059C11E /* LaunchScreen.storyboard */,
+				FE1D534225484DDA0059C11E /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +347,9 @@
 			files = (
 				FE1D534925484DDC0059C11E /* LaunchScreen.storyboard in Resources */,
 				FE1D534625484DDC0059C11E /* Assets.xcassets in Resources */,
+				FE1D53AF2548A8E10059C11E /* DiceTableViewCell.xib in Resources */,
+				FE1D53A025485B800059C11E /* DiceSetTableViewCell.xib in Resources */,
+				FE69DE332550BF330007CD00 /* HistoryTableViewCell.xib in Resources */,
 				FE1D534425484DDA0059C11E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +375,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE1D534125484DDA0059C11E /* ViewController.swift in Sources */,
+				FE69DE2C2550B0E10007CD00 /* History.swift in Sources */,
+				FE1D534125484DDA0059C11E /* MainViewController.swift in Sources */,
+				FE6B394125544B5800CFD99F /* Logger.swift in Sources */,
+				FE6B39792556F0D700CFD99F /* Design.swift in Sources */,
+				FE1D53B42548B5CE0059C11E /* DiceTableDelegate.swift in Sources */,
+				FE1D5383254855360059C11E /* DiceSet.swift in Sources */,
+				FE1D537625484F690059C11E /* ConfigurationViewController.swift in Sources */,
 				FE1D533D25484DDA0059C11E /* AppDelegate.swift in Sources */,
+				FE1D53A52548A1760059C11E /* ChooseDiceViewController.swift in Sources */,
+				FE6B39502555B9E500CFD99F /* UIColorExtension.swift in Sources */,
+				FE41967F254DB52400D09923 /* ConfigurationDelegate.swift in Sources */,
+				FE0385C5254F054600B57B35 /* Spinner.swift in Sources */,
+				FE419677254D879100D09923 /* DiceStack.swift in Sources */,
+				FE1D53AE2548A8E10059C11E /* DiceTableViewCell.swift in Sources */,
+				FE1D5393254859AF0059C11E /* Constants.swift in Sources */,
+				FE1D539F25485B800059C11E /* DiceSetTableViewCell.swift in Sources */,
+				FE69DE2725508F270007CD00 /* UserDefaultsExtension.swift in Sources */,
+				FE419672254C836900D09923 /* ChooseDiceDelegate.swift in Sources */,
+				FE69DE322550BF330007CD00 /* HistoryTableViewCell.swift in Sources */,
+				FE1D537B25484F7A0059C11E /* HistoryViewController.swift in Sources */,
+				FE1D539925485A6A0059C11E /* Utilities.swift in Sources */,
 				FE1D533F25484DDA0059C11E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +492,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -366,6 +503,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = AnyDice/Application/Info.plist;
+				INFOPLIST_PREFIX_HEADER = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -415,12 +554,15 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = AnyDice/Application/Info.plist;
+				INFOPLIST_PREFIX_HEADER = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -438,7 +580,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 469S6A76JJ;
-				INFOPLIST_FILE = AnyDice/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AnyDice/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +599,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 469S6A76JJ;
-				INFOPLIST_FILE = AnyDice/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AnyDice/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
