@@ -142,14 +142,19 @@ extension ConfigurationViewController: UITableViewDelegate, UITableViewDataSourc
     }
     
     // deletes a row from TableView (by swiping to the left)
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if (editingStyle == .delete) {
-            diceSetArray.remove(at: indexPath.row)
-            diceSetTableView.deleteRows(at: [indexPath], with: .fade)
-            diceSetTableView.reloadData()
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+         
+        let deleteAction = UIContextualAction(style: .destructive, title: "Delete") { (action, view, handler) in
+            self.diceSetArray.remove(at: indexPath.row)
+            self.diceSetTableView.deleteRows(at: [indexPath], with: .fade)
+            self.diceSetTableView.reloadData()
         }
+        deleteAction.backgroundColor = UIColor(hex: Design.buttonColor)
+        let configuration = UISwipeActionsConfiguration(actions: [deleteAction])
+        configuration.performsFirstActionWithFullSwipe = true
+        return configuration
     }
-      
+    
 }
 
 /// Add 'TableCellDelegate' conformance.

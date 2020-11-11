@@ -79,6 +79,7 @@ class MainViewController: UIViewController {
         self.totalLabel.text = "?"
         self.minLabel.text = String(diceStack.minValue)
         self.maxLabel.text = String(diceStack.maxValue)
+        // TODO: change totalLabel font size if maxValue > 1000
     }
     
     // add design to Views
@@ -94,9 +95,9 @@ class MainViewController: UIViewController {
         Design.setupLabelWhite(label: minLabel)
         Design.setupLabelWhite(label: maxTextLabel)
         Design.setupLabelWhite(label: maxLabel)
-        Design.setupLabelWhite(label: totalLabel, fontSize: 150)
+        Design.setupLabelWhite(label: totalLabel, fontSize: Design.fontSizeTotalLabelNormal)
         // buttons
-        Design.setupButton(button: rollButton, fontSize: 40)
+        Design.setupButton(button: rollButton, fontSize: Design.fontSizeRollButton)
         Design.setupButton(button: dicesButton)
         Design.setupButton(button: historyButton)
     }

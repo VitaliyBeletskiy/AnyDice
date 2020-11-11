@@ -335,25 +335,25 @@
                             <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ukd-j9-1so">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffF-Qh-34x" userLabel="TopOpaqueView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                    <view alpha="0.94999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffF-Qh-34x" userLabel="TopOpaqueView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="90" id="Acq-pQ-N5h"/>
+                                            <constraint firstAttribute="height" constant="110" id="Acq-pQ-N5h"/>
                                         </constraints>
                                     </view>
-                                    <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZ3-3F-ecc" userLabel="BottomOpaqueView">
-                                        <rect key="frame" x="0.0" y="190" width="375" height="477"/>
+                                    <view alpha="0.94999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZ3-3F-ecc" userLabel="BottomOpaqueView">
+                                        <rect key="frame" x="0.0" y="210" width="375" height="457"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To change a dice tap it" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSZ-IY-zgc">
-                                        <rect key="frame" x="40" y="59" width="295" height="21"/>
+                                        <rect key="frame" x="40" y="79" width="295" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To delete a row swipe it to the left (except for the last one)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dmw-Sg-ETZ">
-                                        <rect key="frame" x="40" y="200" width="295" height="41"/>
+                                        <rect key="frame" x="40" y="220" width="295" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -388,7 +388,7 @@
                             <constraint firstItem="SU6-Q6-vqj" firstAttribute="top" secondItem="iSy-Hc-xdF" secondAttribute="bottom" constant="20" id="R8r-cV-6aL"/>
                             <constraint firstItem="87q-MY-38o" firstAttribute="top" secondItem="ehf-7h-TKt" secondAttribute="top" constant="20" id="SA7-O7-D2V"/>
                             <constraint firstItem="7D8-K0-3QR" firstAttribute="top" secondItem="ehf-7h-TKt" secondAttribute="top" constant="20" id="SmB-8q-l30"/>
-                            <constraint firstItem="Ukd-j9-1so" firstAttribute="top" secondItem="ehf-7h-TKt" secondAttribute="top" id="WKn-uy-x7P"/>
+                            <constraint firstItem="Ukd-j9-1so" firstAttribute="top" secondItem="Lmo-lZ-oqW" secondAttribute="top" id="WKn-uy-x7P"/>
                             <constraint firstItem="Xvh-oe-d2R" firstAttribute="centerX" secondItem="Lmo-lZ-oqW" secondAttribute="centerX" id="amt-iG-NgK"/>
                             <constraint firstItem="SU6-Q6-vqj" firstAttribute="centerX" secondItem="Lmo-lZ-oqW" secondAttribute="centerX" id="gav-sy-Fep"/>
                             <constraint firstItem="ehf-7h-TKt" firstAttribute="trailing" secondItem="iSy-Hc-xdF" secondAttribute="trailing" id="hHw-Nj-XTa"/>

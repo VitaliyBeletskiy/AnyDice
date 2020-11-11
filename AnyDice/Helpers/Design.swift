@@ -9,33 +9,45 @@ import UIKit
 
 class Design {
     
+    // Design constants
+    static let screenBackgroundColor = "#ADADADFF"
+    //static let screenBackgroundColor = "#8D8D8DFF"
+    //static let screenBackgroundColor = "#6EA355FF"
+    static let mainScreenCirclesColor = "#F79B16FF"
+    static let buttonColor = "#8B4E81FF"
+    // font size
+    static let fontSizeTotalLabelNormal: CGFloat = 150
+    static let fontSizeRollButton: CGFloat = 40
+    static let fontSizeAllButtonLabel: CGFloat = 25
+    
+    
     static func setupBackground(view: UIView) {
-        view.backgroundColor = UIColor(hex: Constants.screenBackgroundColor)
+        view.backgroundColor = UIColor(hex: self.screenBackgroundColor)
     }
     
     static func setupTableViewBackground(tableView: UITableView) {
-        tableView.backgroundColor = UIColor(hex: Constants.screenBackgroundColor)
+        tableView.backgroundColor = UIColor(hex: self.screenBackgroundColor)
     }
     
-    static func setupButton(button: UIButton, fontSize: CGFloat = 25) {
-        button.backgroundColor = UIColor(hex: Constants.buttonColor)
+    static func setupButton(button: UIButton, fontSize: CGFloat = Design.fontSizeAllButtonLabel) {
+        button.backgroundColor = UIColor(hex: self.buttonColor)
         button.layer.cornerRadius = 20
         button.titleLabel?.font = self.roundedFont(ofSize: fontSize, weight: .heavy)
         button.setTitleColor(.white, for: .normal)
     }
     
-    static func setupButtonNoCorners(button: UIButton, fontSize: CGFloat = 25) {
-        button.backgroundColor = UIColor(hex: Constants.buttonColor)
+    static func setupButtonNoCorners(button: UIButton, fontSize: CGFloat = Design.fontSizeAllButtonLabel) {
+        button.backgroundColor = UIColor(hex: self.buttonColor)
         button.titleLabel?.font = self.roundedFont(ofSize: fontSize, weight: .heavy)
         button.setTitleColor(.white, for: .normal)
     }
     
     static func setupCircle(circleView: UIView, cornerRadius: CGFloat) {
-        circleView.backgroundColor = UIColor(hex: Constants.mainScreenCirclesColor)
+        circleView.backgroundColor = UIColor(hex: self.mainScreenCirclesColor)
         circleView.layer.cornerRadius = cornerRadius
     }
     
-    static func setupLabelWhite(label: UILabel, fontSize: CGFloat = 25) {
+    static func setupLabelWhite(label: UILabel, fontSize: CGFloat = Design.fontSizeAllButtonLabel) {
         label.font = Design.roundedFont(ofSize: fontSize, weight: .heavy)
         label.textColor = .white
     }
