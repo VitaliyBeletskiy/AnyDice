@@ -7,7 +7,10 @@
 
 import Foundation
 
-class Constants {
+struct Constants {
+    
+    // to prevent accidental instantiating
+    private init() {}
     
     // MainViewController string literals
     static let segueToConfigurationVC = "GoToConfigurationVC"

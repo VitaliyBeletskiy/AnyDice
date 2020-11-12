@@ -149,7 +149,7 @@ extension ConfigurationViewController: UITableViewDelegate, UITableViewDataSourc
             self.diceSetTableView.deleteRows(at: [indexPath], with: .fade)
             self.diceSetTableView.reloadData()
         }
-        deleteAction.backgroundColor = UIColor(hex: Design.buttonColor)
+        deleteAction.backgroundColor = Design.buttonColor
         let configuration = UISwipeActionsConfiguration(actions: [deleteAction])
         configuration.performsFirstActionWithFullSwipe = true
         return configuration
