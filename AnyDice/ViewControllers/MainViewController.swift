@@ -82,7 +82,7 @@ class MainViewController: UIViewController {
         // TODO: change totalLabel font size if maxValue > 1000
     }
     
-    // add design to Views
+    // apply design to Views
     private func setupViewsAccordingDesign() {
         // set background color
         Design.setupBackground(view: self.view)
@@ -96,6 +96,8 @@ class MainViewController: UIViewController {
         Design.setupLabelWhite(label: maxTextLabel)
         Design.setupLabelWhite(label: maxLabel)
         Design.setupLabelWhite(label: totalLabel, fontSize: Design.fontSizeTotalLabelNormal)
+        totalLabel.adjustsFontSizeToFitWidth = true
+        totalLabel.minimumScaleFactor = 0.1
         // buttons
         Design.setupButton(button: rollButton, fontSize: Design.fontSizeRollButton)
         Design.setupButton(button: dicesButton)
