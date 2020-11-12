@@ -79,7 +79,6 @@ class MainViewController: UIViewController {
         self.totalLabel.text = "?"
         self.minLabel.text = String(diceStack.minValue)
         self.maxLabel.text = String(diceStack.maxValue)
-        // TODO: change totalLabel font size if maxValue > 1000
     }
     
     // apply design to Views

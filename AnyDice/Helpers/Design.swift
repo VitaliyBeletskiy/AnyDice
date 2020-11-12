@@ -55,7 +55,7 @@ struct Design {
         label.textColor = .white
     }
     
-    static func setupLabelBlack(label: UILabel, fontSize: CGFloat = 25) {
+    static func setupLabelBlack(label: UILabel, fontSize: CGFloat = Design.fontSizeAllButtonLabel) {
         label.font = Design.roundedFont(ofSize: fontSize, weight: .heavy)
         label.textColor = .black
     }

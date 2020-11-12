@@ -27,8 +27,8 @@ class HistoryTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        diceConfigLabel.font = Design.roundedFont(ofSize: 25, weight: .heavy)
-        resultLabel.font = Design.roundedFont(ofSize: 25, weight: .heavy)
+        diceConfigLabel.font = Design.roundedFont(ofSize: Design.fontSizeAllButtonLabel, weight: .heavy)
+        resultLabel.font = Design.roundedFont(ofSize: Design.fontSizeAllButtonLabel, weight: .heavy)
     }
     
 }
