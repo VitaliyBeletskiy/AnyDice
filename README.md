@@ -11,5 +11,5 @@ AppStore link: https://apps.apple.com/us/app/anydice/id1540270825
   <img src="AnyDice_04.png" alt="AnyDice_04" width="200"/>
   <img src="AnyDice_02.png" alt="AnyDice_02" width="200"/>
 </p>
-<br />
+**Animated preview:**
 <img src="AnyDice.gif" alt="AnyDice" width="200"/>
