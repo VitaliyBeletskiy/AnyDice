@@ -1,4 +1,4 @@
-# AnyDice
+<img src="AnyDice_icon.png" alt="AnyDice" width="100"/># AnyDice
 
 A project application (Swift, UIKit) for the "Programmerare iPhone och Android" course.
 
