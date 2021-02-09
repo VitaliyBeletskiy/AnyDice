@@ -9,3 +9,4 @@ AppStore link: https://apps.apple.com/us/app/anydice/id1540270825
 ![AnyDice_01](AnyDice_01.png =300x)
 ![AnyDice_02](AnyDice_02.png =300x)
 ![AnyDice_03](AnyDice_03.png =300x)
+<img src="AnyDice_01.png" alt="AnyDice_01" width="200"/>
