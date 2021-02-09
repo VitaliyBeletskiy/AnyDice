@@ -1,6 +1,6 @@
 # AnyDice
 
-A project application for the "Programmerare iPhone och Android" course.
+A project application (Swift, UIKit) for the "Programmerare iPhone och Android" course.
 
 AppStore link: https://apps.apple.com/us/app/anydice/id1540270825
 
